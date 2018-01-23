@@ -10,16 +10,19 @@ function nestedTarget(){
 
 }
 
-function increaseRankBy(n){
-  //increases the ranks in all of the .ranked-list by n
-
-}
 
 function deepestChild(){
   //pulls out the most deeply nested children
   //from div#grand-node
 
 }
+
+
+function increaseRankBy(n){
+  //increases the ranks in all of the .ranked-list by n
+
+}
+
 /*
 function getFirstSelector(selector){
   return document.querySelector(selector);
