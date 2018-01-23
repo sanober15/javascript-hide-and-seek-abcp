@@ -7,7 +7,7 @@ function nestedTarget(){
   //pulls a .target out of #nested and .target
   //# is used for ID Selectors
   return document.getElementById('nested').querySelector(target);
-  
+
 }
 
 function increaseRankBy(n){
