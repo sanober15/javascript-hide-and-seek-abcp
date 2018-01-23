@@ -1,6 +1,6 @@
 function getFirstSelector(selector){
   // accpets a selector and returns the first element that matches
-
+  return document.querySlector(selector);
 }
 
 function nestedTarget(){
@@ -17,5 +17,5 @@ function increaseRankBy(n){
 function deepestChild(){
   //pulls out the most deeply nested children
   //from div#grand-node
-  
+
 }
