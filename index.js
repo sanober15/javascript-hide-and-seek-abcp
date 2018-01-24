@@ -29,7 +29,10 @@ function deepestChild(){
 
 function increaseRankBy(n){
   //increases the ranks in all of the .ranked-list by n
-
+let l = document.querySelectorAll("ul.ranked-list li");
+for (var i = 0; i < l.length; i++) {
+  l[i].innerHTML = parseInt(l[i].innerHTML) + n;
+}
 }
 
 /*
