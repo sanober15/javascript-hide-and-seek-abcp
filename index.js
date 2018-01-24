@@ -15,11 +15,11 @@ function deepestChild(){
   //pulls out the most deeply nested children
   //from div#grand-node
   let node = document.getElementById('grand-node');
-  let next = node.children;
+  let next = node.children[0];
 
   while (next) {
     node = next;
-    next = node.children;
+    next = node.children[0];
   }
 
   return next;
