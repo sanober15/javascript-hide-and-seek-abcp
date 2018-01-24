@@ -14,7 +14,7 @@ function nestedTarget(){
 function deepestChild(){
   //pulls out the most deeply nested children
   //from div#grand-node
-  let node = document.querySelectorAll('#grand-node');
+  let node = document.getElementById('grand-node');
   let next = node.children;
 
   while (next) {
